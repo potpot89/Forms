@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,8 +9,42 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <form action="">
-      <button type="submit">Confirm</button>
+    <h1>ELEMENTI DEL FORM</h1>
+    <form action="test.html" method="post" id="myform">
+      <h3>TEXT INPUT</h3>
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" id="nome" />
+      <h3>CHECKBOX INPUT:</h3>
+      <input
+        type="checkbox"
+        id="check1"
+        name="check"
+        value="c1"
+        class="check"
+      />
+      <input
+        type="checkbox"
+        id="check2"
+        name="check"
+        value="c2"
+        class="check"
+      />
+      <input
+        type="checkbox"
+        id="check3"
+        name="check"
+        value="c3"
+        class="check"
+      />
+      <h3>SELECT</h3>
+      <select name="select" id="select">
+        <option value="arancia">Arancia</option>
+        <option value="mela">Mela</option>
+        <option value="pera">Pera</option>
+        <option value="banana">Banana</option>
+      </select>
+      <h3>SUBMIT BUTTON</h3>
+      <button type="submit" id="submit">Invia</button>
     </form>
   </body>
 </html>

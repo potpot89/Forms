@@ -1,0 +1,27 @@
+:root {
+  --primaryCol: rgb(230, 14, 147);
+}
+
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: var(--primaryCol);
+}
+
+h1 {
+  color: rgb(82, 2, 82);
+}
+
+h3 {
+  text-decoration: underline;
+  color: rgb(87, 14, 67);
+  padding: 0.2rem;
+  background-color: rgb(255, 192, 241);
+}
+
+input,
+select,
+button {
+  color: var(--primaryCol);
+  background-color: white;
+  border-color: pink;
+}
